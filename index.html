@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/color-mode.css">
+    <link rel="stylesheet" href="./css/about-modal.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+    <script src="./js/animation.js" defer></script>
+    <script src="./js/color-mode.js" defer></script>
+    <script src="./js/project-slideshow.js" defer></script>
+    <script src="./js/about-modal.js" defer></script>
+    <script src="./js/lang.js" defer></script>
+    <title>José Ríos - Mini Résumé</title>
+  </head>
+  <body>
+    <div id="hero">
+      <h5>Hello, I am</h5>
+      <h1>José Ríos</h1>
+      <p>Software Engineer</p>
+        <div id="hero__animation">
+        <div id="hero__animation__img"></div>
+      </div>
+    </div>
+    <nav id="grid">
+      <div id="grid__tl">
+        <div id="grid__tl__btn">About</div>
+        <div id="grid__tl__content">
+          <div class="cards">
+            <div class="cards__content">
+              <article>
+                <img src="./assets/icons/experience.png" alt="Experience icon" class="icon" />
+                <h2>Experience</h2>
+                <p>
+                  Web Applications<br>
+                  QA Testing<br>
+                  Technical Support
+                </p>
+              </article>
+              <p class="cards__content__text">
+                Dedicated to continuous learning and enhancing proficiency with the latest technologies.
+              </p>
+            </div>
+            <div class="cards__content">
+              <article>
+                <img
+                  src="./assets/icons/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h2>Education</h2>
+                <p>B.Eng. Software Engineering</p>
+              </article>
+              <p class="cards__content__text">
+                Bachelor’s degree in Software Engineering from the Autonomous University of Chihuahua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="grid__tr">
+        <div id="grid__tr__btn">Tech Skills</div>
+        <div id="grid__tr__content">
+          <div class="cards experience">
+            <article class="experience__skill">
+              <h2>Frontend Development</h2>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>HTML</h2>
+                  <p>Experienced</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>CSS</h2>
+                  <p>Experienced</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>JavaScript</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>TypeScript</h2>
+                  <p>Basic</p>
+                </div>
+              </div>
+            </article>
+            <article class="experience__skill">
+              <h2>Backend Development</h2>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>SQL Server</h2>
+                  <p>Basic</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>MongoDB</h2>
+                  <p>Basic</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Node JS</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Express JS</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+            </article>
+            <article class="experience__skill">
+              <h2>QA Testing</h2>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Manual Testing</h2>
+                  <p>Experienced</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/check.png"
+                  alt="Check icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Automated Testing</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div id="grid__bl">
+        <div id="grid__bl__btn">Projects</div>
+        <div id="grid__bl__content">
+          <div id="grid__bl__content__projects">
+            <div class="project p-1">
+              <img
+                class="project__img project-1"
+                src="assets/portfolio-projects/project-1-dark.png"
+                alt="Project 1"
+              />
+              <h2 class="project__title">Cherry Labs</h2>
+              <button
+                class="btn"
+                onclick="window.location.href='https://netlify.com'"
+              >
+                Demo
+              </button>
+              <button
+                class="btn"
+                onclick="window.location.href='https://github.com'"
+              >
+                GitHub
+              </button>
+            </div>
+            <div class="project p-2">
+              <img
+                class="project__img project-2"
+                src="assets/portfolio-projects/project-2-dark.png"
+                alt="Project 2"
+              />
+              <h2 class="project__title">Quiz Master</h2>
+              <button
+                class="btn"
+                onclick="window.location.href='https://netlify.com'"
+              >
+                Demo
+              </button>
+              <button
+                class="btn"
+                onclick="window.location.href='https://github.com'"
+              >
+                GitHub
+              </button>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-3"
+                src="assets/portfolio-projects/project-3-dark.png"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Crisium</h2>
+              <button
+                class="btn"
+                onclick="window.location.href='https://netlify.com'"
+              >
+                Demo
+              </button>
+              <button
+                class="btn"
+                onclick="window.location.href='https://github.com'"
+              >
+                GitHub
+              </button>
+            </div>
+            <button class="arrow" onclick="navigateProject(-1)">
+              &#10094;
+            </button>
+            <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+          </div>
+        </div>
+      </div>
+      <div id="grid__br">
+        <div id="grid__br__btn">Contact</div>
+          <div id="grid__br__content">
+            <h5 class="contact-text">Get In Touch</h5>
+            <h2 class="contact-text">Contact Me</h2>
+          <div>
+          <button class="btn btn-contact" onclick="window.location.href='mailto:rdjl5791@gmail.com'">Email</button>
+          <button class="btn btn-contact" onclick="window.location.href='https://www.linkedin.com/in/jlrd75/'">LinkedIn</button>
+        </div>
+        <a id="launch__modal" href="#">About</a>
+      </div>
+    </div>
+    </nav>
+    <div style="bottom: 25px; transform: translate(-50%); left: 50%; position: fixed; display: flex; align-items: center;">
+      <div class="color-mode">
+        <div id="toggle-button-color-mode" class="icon"></div>
+      </div>
+      <span class="select-lang" style="margin-left: 15px;">EN</span>
+      <div class="color-mode-lang">
+        <div id="toggle-button-lang" class="icon"></div>
+      </div>
+      <span class="select-lang">ES</span>
+    </div>
+    <div id="about__modal" class="about-modal">
+      <div class="about-content">
+        <span class="close-modal-button">&times;</span>
+          <h1>José Ríos</h1>
+          <strong>Mini Resume</strong>
+          <br><br>
+          <p>
+            This mini portfolio was created by following a tutorial on YouTube, using standard web technologies: HTML, CSS, and JavaScript. <br>
+            Additionally, one small feature was added:  
+          </p>
+          <ul>
+            <li>A toggle button to switch between English and Spanish.</li>
+          </ul>
+        </p>
+        <p>
+          Upcoming updates will include:
+        </p>
+        <ul>
+          <li>Migration to React.</li>
+          <li>Automatic theme switching based on system time.</li>
+        </ul>
+        <strong>Links:</strong>
+        <br>
+        <a href="https://www.youtube.com/watch?v=pcFF_IIpMbc">Original tutorial.</a>
+        <br>
+        <a href="https://github.com/jlrios/animated-head-portfolio">Mini Résumé source code repository.</a>
+        <br><br>
+        <p>Last update on April 2, 2025.</p>
+      </div>
+    </div>
+  </body>
+</html>
