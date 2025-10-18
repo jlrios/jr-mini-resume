@@ -5,7 +5,7 @@ const defaultLang = "ES";
 function loadLanguage() {
   console.log(langToggleButton);
   const langDefault = localStorage.getItem(langStorageKey) || defaultLang;
-  console.log(langDefault);
+  console.log("default: " + langDefault);
   setLanguage(langDefault);
 }
 
@@ -16,12 +16,22 @@ function setLanguage(currentLang) {
 
 loadLanguage();
 
+console.log ("Current lang >>> " + defaultLang);
+
 langToggleButton.addEventListener("click", () => {
   let currentLang = defaultLang
   if (currentLang === "ES") {
+    console.log("Switching to ES");
+    langToggleButton.style.backgroundImage = "var(--world-dark)";
+    langToggleButton.style.display = "flex";
+    //langToggleButton.style.justifyContent = "flex-end";
     currentLang = "EN"  
   } else {  
-    currentLang = "ES"  
+    console.log("Switching to EN");
+    currentLang = "ES" 
+    langToggleButton.style.display = "flex";
+   
+    langToggleButton.style.justifyContent = "flex-end";
   }
   setLanguage(currentLang);
 });

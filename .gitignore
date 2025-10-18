@@ -1,11 +1,10 @@
-# System files
+# System files.
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Temp filess
+# Temp files.
 *.tmp
 *.swp
-
