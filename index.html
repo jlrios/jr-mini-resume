@@ -15,35 +15,36 @@
     <script src="./js/project-slideshow.js" defer></script>
     <script src="./js/about-modal.js" defer></script>
     <script src="./js/lang.js" defer></script>
-    <!--<script src="./js/translations.js" defer></script>-->
     <title>José Ríos - Mini Résumé</title>
   </head>
   <body>
     <div id="hero">
-      <h5>Hello, I am</h5>
+      <h5 data-es="Hola, permíteme presentarme" data-en="Hello, I am">Hello, I am</h5>
       <h1>José Ríos</h1>
-      <p>Software Engineer</p>
-        <div id="hero__animation">
+      <p data-es="Ingeniero de Software" data-en="Software Engineer">Software Engineer</p>
+      <div id="hero__animation">
         <div id="hero__animation__img"></div>
       </div>
     </div>
     <nav id="grid">
       <div id="grid__tl">
-        <div id="grid__tl__btn">About</div>
+        <div id="grid__tl__btn" data-es="Sobre mí" data-en="About">About</div>
         <div id="grid__tl__content">
           <div class="cards">
             <div class="cards__content">
               <article>
                 <img src="./assets/icons/experience.png" alt="Experience icon" class="icon" />
-                <h2>Experience</h2>
-                <p>
+                <h2 data-es="Experiencia" data-en="Experience">Experience</h2>
+                <p data-es="Aplicaciones Web &#10;Pruebas de calidad &#10;Soporte técnico" data-en="Web Applications &#10;QA Testing &#10;Technical Support">
                   Web Applications<br>
                   QA Testing<br>
                   Technical Support
                 </p>
               </article>
-              <p class="cards__content__text">
-                Dedicated to continuous learning and enhancing proficiency with the latest technologies.
+              <p class="cards__content__text" 
+                data-es="Dedicado al aprendizaje continuo, y a fortalecer la competencia en las tecnologías más actuales." 
+                data-en="Dedicated to continuous learning, and enhancing proficiency with the latest technologies.">
+                Dedicated to continuous learning, and enhancing proficiency with the latest technologies.
               </p>
             </div>
             <div class="cards__content">
@@ -53,22 +54,24 @@
                   alt="Education icon"
                   class="icon"
                 />
-                <h2>Education</h2>
-                <p>B.Eng. Software Engineering</p>
+                <h2 data-es="Educación" data-en="Education">Education</h2>
+                <p data-es="Ingeniero de Software" data-en="B.Eng. Software Engineering">B.Eng. Software Engineering</p>
               </article>
-              <p class="cards__content__text">
-                Bachelor’s degree in Software Engineering from the Autonomous University of Chihuahua.
+              <p class="cards__content__text" 
+                data-es="Ingeniero de Software, egresado de la Facultad de Ingeniería de la Universidad Autónoma de Chihuahua" 
+                data-en="Bachelor’s degree in Software Engineering, from the Autonomous University of Chihuahua.">
+                Bachelor’s degree in Software Engineering, from the Autonomous University of Chihuahua.
               </p>
             </div>
           </div>
         </div>
       </div>
       <div id="grid__tr">
-        <div id="grid__tr__btn">Tech Skills</div>
+        <div id="grid__tr__btn" data-es="Habilidades" data-en="Tech Skills">Tech Skills</div>
         <div id="grid__tr__content">
           <div class="cards experience">
             <article class="experience__skill">
-              <h2>Frontend Development</h2>
+              <h2 data-es="Desarrollo Frontend" data-en="Frontend Development">Frontend Development</h2>
               <div>
                 <img
                   src="./assets/icons/check.png"
@@ -77,7 +80,7 @@
                 />
                 <div>
                   <h2>HTML</h2>
-                  <p>Experienced</p>
+                  <p data-es="Con experiencia" data-en="Experienced">Experienced</p>
                 </div>
               </div>
               <div>
@@ -88,7 +91,7 @@
                 />
                 <div>
                   <h2>CSS</h2>
-                  <p>Experienced</p>
+                  <p data-es="Con experiencia" data-en="Experienced">Experienced</p>
                 </div>
               </div>
               <div>
@@ -99,7 +102,7 @@
                 />
                 <div>
                   <h2>JavaScript</h2>
-                  <p>Intermediate</p>
+                  <p data-es="Intermedio" data-en="Intermediate">Intermediate</p>
                 </div>
               </div>
               <div>
@@ -110,12 +113,12 @@
                 />
                 <div>
                   <h2>TypeScript</h2>
-                  <p>Basic</p>
+                  <p data-es="Básico" data-en="Basic">Basic</p>
                 </div>
               </div>
             </article>
             <article class="experience__skill">
-              <h2>Backend Development</h2>
+              <h2 data-es="Desarrollo Backend" data-en="Backend Development">Backend Development</h2>
               <div>
                 <img
                   src="./assets/icons/check.png"
@@ -124,7 +127,7 @@
                 />
                 <div>
                   <h2>SQL Server</h2>
-                  <p>Basic</p>
+                  <p data-es="Básico" data-en="Basic">Basic</p>
                 </div>
               </div>
               <div>
@@ -135,7 +138,7 @@
                 />
                 <div>
                   <h2>MongoDB</h2>
-                  <p>Basic</p>
+                  <p data-es="Básico" data-en="Basic">Basic</p>
                 </div>
               </div>
               <div>
@@ -145,8 +148,8 @@
                   class="icon"
                 />
                 <div>
-                  <h2>Node JS</h2>
-                  <p>Intermediate</p>
+                  <h2>Node.js</h2>
+                  <p data-es="Intermedio" data-en="Intermediate">Intermediate</p>
                 </div>
               </div>
               <div>
@@ -156,13 +159,13 @@
                   class="icon"
                 />
                 <div>
-                  <h2>Express JS</h2>
-                  <p>Intermediate</p>
+                  <h2>Express</h2>
+                  <p data-es="Intermedio" data-en="Intermediate">Intermediate</p>
                 </div>
               </div>
             </article>
             <article class="experience__skill">
-              <h2>QA Testing</h2>
+              <h2 data-es="Pruebas de calidad" data-en="QA Testing">QA Testing</h2>
               <div>
                 <img
                   src="./assets/icons/check.png"
@@ -170,8 +173,8 @@
                   class="icon"
                 />
                 <div>
-                  <h2>Manual Testing</h2>
-                  <p>Experienced</p>
+                  <h2 data-es="Pruebas manuales" data-en="Manual Testing">Manual Testing</h2>
+                  <p data-es="Con experiencia" data-en="Experienced">Experienced</p>
                 </div>
               </div>
               <div>
@@ -181,8 +184,8 @@
                   class="icon"
                 />
                 <div>
-                  <h2>Automated Testing</h2>
-                  <p>Intermediate</p>
+                  <h2 data-es="Pruebas automáticas" data-en="Automated Testing">Automated Testing</h2>
+                  <p data-es="Intermedio" data-en="Intermediate">Intermediate</p>
                 </div>
               </div>
             </article>
@@ -190,7 +193,7 @@
         </div>
       </div>
       <div id="grid__bl">
-        <div id="grid__bl__btn">Projects</div>
+        <div id="grid__bl__btn" data-es="Proyectos" data-en="Projects">Projects</div>
         <div id="grid__bl__content">
           <div id="grid__bl__content__projects">
             <div class="project p-1">
@@ -202,13 +205,13 @@
               <h2 class="project__title">Cherry Labs</h2>
               <button
                 class="btn"
-                onclick="window.location.href='https://netlify.com'"
+                onclick="alert('No disponible por el momento.');"
               >
                 Demo
               </button>
               <button
                 class="btn"
-                onclick="window.location.href='https://github.com'"
+                onclick="window.location.href='https://github.com/jlrios/projects/tree/main/cherry-labs'"
               >
                 GitHub
               </button>
@@ -222,13 +225,13 @@
               <h2 class="project__title">Quiz Master</h2>
               <button
                 class="btn"
-                onclick="window.location.href='https://netlify.com'"
+                onclick="window.location.href=''"
               >
                 Demo
               </button>
               <button
                 class="btn"
-                onclick="window.location.href='https://github.com'"
+                onclick="window.location.href='https://github.com/jlrios/projects/tree/main/quiz-master'"
               >
                 GitHub
               </button>
@@ -242,13 +245,13 @@
               <h2 class="project__title">Crisium</h2>
               <button
                 class="btn"
-                onclick="window.location.href='https://netlify.com'"
+                onclick="window.location.href=''"
               >
                 Demo
               </button>
               <button
                 class="btn"
-                onclick="window.location.href='https://github.com'"
+                onclick="window.location.href='https://github.com/jlrios/projects/tree/main/text-based-games/crisium'"
               >
                 GitHub
               </button>
@@ -261,15 +264,15 @@
         </div>
       </div>
       <div id="grid__br">
-        <div id="grid__br__btn">Contact</div>
+        <div id="grid__br__btn" data-es="Contacto" data-en="Contact">Contact</div>
           <div id="grid__br__content">
-            <h5 class="contact-text">Get In Touch</h5>
-            <h2 class="contact-text">Contact Me</h2>
+            <h5 class="contact-text" data-es="Mantente en contacto" data-en="Get In Touch">Get In Touch</h5>
+            <h2 class="contact-text" data-es="Contáctame" data-en="Contact Me">Contact Me</h2>
           <div>
-          <button class="btn btn-contact" onclick="window.location.href='mailto:rdjl5791@gmail.com'">Email</button>
+          <button class="btn btn-contact" onclick="window.location.href='mailto:rdjl5791@gmail.com'" data-es="Correo electr." data-en="Email">Email</button>
           <button class="btn btn-contact" onclick="window.location.href='https://www.linkedin.com/in/jlrd75/'">LinkedIn</button>
         </div>
-        <a id="launch__modal" href="#">About</a>
+        <a id="launch__modal" href="#" data-es="Acerda de" data-en="About">About</a>
       </div>
     </div>
     </nav>
@@ -287,30 +290,36 @@
       <div class="about-content">
         <span class="close-modal-button">&times;</span>
           <h1>José Ríos</h1>
-          <strong>Mini Resume</strong>
+          <strong data-es="Miní Currículo" data-en="Mini Résumé">Mini Résumé</strong>
           <br><br>
-          <p>
-            This mini portfolio was created by following a tutorial on YouTube, using standard web technologies: HTML, CSS, and JavaScript. <br>
+          <p 
+            data-es="Este miní currículo fue creado siguiendo un tutorial de Youtube, usando las tecnologías web estándar: HTML, CSS y JavaScript.&#10;&#10;
+            Adicionalmente, se agrego una pequeña funcionalidad:" 
+            data-en="This mini résumé was created by following a tutorial on YouTube, using standard web technologies: HTML, CSS, and JavaScript.&#10;
+            Additionally, one small feature was added:">
+            This mini résumé was created by following a tutorial on YouTube, using standard web technologies: HTML, CSS, and JavaScript. <br>
             Additionally, one small feature was added:  
           </p>
           <ul>
-            <li>A toggle button to switch between English and Spanish.</li>
+            <li data-es="Un botón para alternar entre el Inglés y Español" data-en="A toggle button to switch between English and Spanish.">A toggle button to switch between English and Spanish language.</li>
           </ul>
         </p>
-        <p>
+        <p data-es="Próximas actualizaciones incluirán:" data-en="Upcoming updates will include:">
           Upcoming updates will include:
         </p>
         <ul>
-          <li>Migration to React.</li>
-          <li>Automatic theme switching based on system time.</li>
+          <li data-es="Migración a React." data-en="Migration to React.">Migration to React.</li>
+          <li data-es="Cambio automático del tema basado en la hora del sistema." 
+            data-en="Automatic theme switching based on system time.">Automatic theme switching based on system time.
+          </li>
         </ul>
         <strong>Links:</strong>
         <br>
-        <a href="https://www.youtube.com/watch?v=pcFF_IIpMbc">Original tutorial.</a>
+        <a href="https://www.youtube.com/watch?v=pcFF_IIpMbc" data-es="Tutorial original." data-en="Original tutorial.">Original tutorial.</a>
         <br>
-        <a href="https://github.com/jlrios/animated-head-portfolio">Mini Résumé source code repository.</a>
+        <a href="https://github.com/jlrios/mini-resume" data-es="Repositorio código fuente Miní Currículo." data-en="Mini Résumé source code repository.">Mini Résumé source code repository.</a>
         <br><br>
-        <p>Last update on April 2, 2025.</p>
+        <p data-es="Última actualización en Octubre 2025." data-en="Last update on October 2025.">Last update on October 2025.</p>
       </div>
     </div>
   </body>

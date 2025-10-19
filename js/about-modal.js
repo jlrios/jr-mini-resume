@@ -3,14 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
   const openModal = document.getElementById("launch__modal");
   const closeModal = document.querySelector(".close-modal-button");
 
-  console.log("-> " + openModal);
-
   openModal.addEventListener("click", (event) => {
     event.preventDefault();
     aboutModal.style.display = "block";
   });
 
-  closeModal.addEventListener("click", (event) => {
+  closeModal.addEventListener("click", () => {
     aboutModal.style.display = "none";
   });
 

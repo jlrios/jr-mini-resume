@@ -20,6 +20,9 @@ const projectOne = document.querySelector(".p-1");
 const projectTwo = document.querySelector(".p-2");
 const projectThree = document.querySelector(".p-3");
 
+// Current language.
+let currentLang = localStorage.getItem("preferred-language").toLocaleLowerCase();
+
 // Define colors and positions.
 const bgColor = "var(--bg)";
 const bgColorAlt = "var(--bg-alt)";
@@ -208,10 +211,17 @@ function playAnimation(animation, reverseAnimation) {
 }
 
 function playClosingAnimation(reverseAnimation) {
-  tlBtn.innerHTML = "About";
-  trBtn.innerHTML = "Tech Skills";
-  blBtn.innerHTML = "Projects";
-  brBtn.innerHTML = "Contact";
+  if (currentLang === "en") {
+    tlBtn.innerHTML = "About";
+    trBtn.innerHTML = "Tech Skills";
+    blBtn.innerHTML = "Projects";
+    brBtn.innerHTML = "Contact";
+  } else {
+    tlBtn.innerHTML = "Sobre mí";
+    trBtn.innerHTML = "Habilidades";
+    blBtn.innerHTML = "Proyectos";
+    brBtn.innerHTML = "Contacto";
+  }
 
   switch (activeCorner) {
     case "top-left":
@@ -249,16 +259,23 @@ function playClosingAnimation(reverseAnimation) {
 
 // Onclick corner button functions.
 tlBtn.onclick = function () {
+  console.log("animations.js -> preferred-language: " + currentLang);
   if (activeCorner === "top-left") {
     playClosingAnimation("reverse-animate-top-left");
   } else {
-    trBtn.innerHTML = "Tech Skills";
-    blBtn.innerHTML = "Projects";
-    brBtn.innerHTML = "Contact";
+    if (currentLang === "en") {
+      trBtn.innerHTML = "Tech Skills";
+      blBtn.innerHTML = "Projects";
+      brBtn.innerHTML = "Contact";
+    } else {
+      trBtn.innerHTML = "Habilidades";
+      blBtn.innerHTML = "Proyectos";
+      brBtn.innerHTML = "Contacto";
+    }
 
     // Setting active corner.
     activeCorner = "top-left";
-    tlBtn.innerHTML = "&uarr;<br/>About";
+    currentLang === "en" ? tlBtn.innerHTML = "&uarr;<br/>About" : tlBtn.innerHTML = "&uarr;<br/>Sobre mí";
 
     handleWindowResize();
     playAnimation("animate-top-left", "reverse-animate-top-left");
@@ -287,13 +304,19 @@ trBtn.onclick = function () {
   if (activeCorner === "top-right") {
     playClosingAnimation("reverse-animate-top-right");
   } else {
-    tlBtn.innerHTML = "About";
-    blBtn.innerHTML = "Projects";
-    brBtn.innerHTML = "Contact";
-
+    if (currentLang === "en") {
+      tlBtn.innerHTML = "About";
+      blBtn.innerHTML = "Projects";
+      brBtn.innerHTML = "Contact";
+    } else {
+      tlBtn.innerHTML = "Sobre mí";
+      blBtn.innerHTML = "Proyectos";
+      brBtn.innerHTML = "Contacto";
+    }
+    
     // Setting active corner.
     activeCorner = "top-right";
-    trBtn.innerHTML = "&uarr;<br/>Tech Skills";
+    currentLang === "en" ? trBtn.innerHTML = "&uarr;<br/>Tech Skills" : trBtn.innerHTML = "&uarr;<br/>Habilidades";
 
     handleWindowResize();
     playAnimation("animate-top-right", "reverse-animate-top-right");
@@ -322,13 +345,19 @@ blBtn.onclick = function () {
   if (activeCorner === "bottom-left") {
     playClosingAnimation("reverse-animate-bottom-left");
   } else {
-    tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Tech Skills";
-    brBtn.innerHTML = "Contact";
-
+    if (currentLang === "en") {
+      tlBtn.innerHTML = "About";
+      trBtn.innerHTML = "Tech Skills";
+      brBtn.innerHTML = "Contact";
+    } else {
+      tlBtn.innerHTML = "Sobre mí";
+      trBtn.innerHTML = "Habilidades";
+      brBtn.innerHTML = "Contacto";
+    }
+    
     // Setting active corner.
     activeCorner = "bottom-left";
-    blBtn.innerHTML = "Projects<br/>&darr;";
+    currentLang === "en" ? blBtn.innerHTML = "Projects<br/>&darr;" : blBtn.innerHTML = "Proyectos<br/>&darr;";
 
     handleWindowResize();
     playAnimation("animate-bottom-left", "reverse-animate-bottom-left");
@@ -357,13 +386,19 @@ brBtn.onclick = function () {
   if (activeCorner === "bottom-right") {
     playClosingAnimation("reverse-animate-bottom-right");
   } else {
-    tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Tech Skills";
-    blBtn.innerHTML = "Projects";
-
+    if (currentLang === "en") {
+      tlBtn.innerHTML = "About";
+      trBtn.innerHTML = "Tech Skills";
+      blBtn.innerHTML = "Projects";
+    } else {
+      tlBtn.innerHTML = "Acerca de mí";
+      trBtn.innerHTML = "Habilidades";
+      blBtn.innerHTML = "Proyectos";
+    }
+    
     // Setting active corner.
     activeCorner = "bottom-right";
-    brBtn.innerHTML = "Contact<br/>&darr;";
+    currentLang === "en" ? brBtn.innerHTML = "Contact<br/>&darr;" : brBtn.innerHTML = "Contacto<br/>&darr;";
 
     handleWindowResize();
     playAnimation("animate-bottom-right", "reverse-animate-bottom-right");
