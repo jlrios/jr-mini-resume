@@ -259,7 +259,6 @@ function playClosingAnimation(reverseAnimation) {
 
 // Onclick corner button functions.
 tlBtn.onclick = function () {
-  console.log("animations.js -> preferred-language: " + currentLang);
   if (activeCorner === "top-left") {
     playClosingAnimation("reverse-animate-top-left");
   } else {
