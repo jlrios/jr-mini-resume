@@ -82,9 +82,9 @@ body:after {
   --br-4: url(../assets/face-animation-light/br-4.png);
   --br-5: url(../assets/face-animation-light/br-5.png);
 
-  --sun: url(/assets/icons/sun.png);
-  --world-light: url(/assets/icons/world-light.png);
-  --world-dark: url(/assets/icons/world-dark.png);
+  --sun: url(../assets/icons/sun.png);
+  --world-light: url(../assets/icons/world-light.png);
+  --world-dark: url(../assets/icons/world-dark.png);
 }
 
 /* Dark mode. */
@@ -120,7 +120,7 @@ body:after {
   --br-4: url(../assets/face-animation-dark/brw-4.png);
   --br-5: url(../assets/face-animation-dark/brw-5.png);
 
-  --moon: url(/assets/icons/moon.png);
+  --moon: url(../assets/icons/moon.png);
 }
 
 /* Color mode toggle buttons. */
