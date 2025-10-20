@@ -5,7 +5,8 @@ body:after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(../assets/face-animation-light/bl-1.png)
+  content: 
+    url(../assets/face-animation-light/bl-1.png)
     url(../assets/face-animation-light/bl-2.png)
     url(../assets/face-animation-light/bl-3.png)
     url(../assets/face-animation-light/bl-4.png)
@@ -44,10 +45,7 @@ body:after {
     url(../assets/face-animation-dark/brw-2.png)
     url(../assets/face-animation-dark/brw-3.png)
     url(../assets/face-animation-dark/brw-4.png)
-    url(../assets/face-animation-dark/brw-5.png)
-    url(../assets/icons/sun.png)
-    url(../assets/icons/world-dark.png)
-    url(../assets/icons/world-light.png);
+    url(../assets/face-animation-dark/brw-5.png);
 }
 
 /* Colors. */
@@ -124,6 +122,7 @@ body:after {
   --br-5: url(../assets/face-animation-dark/brw-5.png);
 
   --moon: url(../assets/icons/moon.png);
+  --world-dark: url(../assets/icons/world-dark.png);
 }
 
 /* Color mode toggle buttons. */
