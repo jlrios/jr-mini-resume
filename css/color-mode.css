@@ -83,7 +83,7 @@ body:after {
   --br-4: url(../assets/face-animation-light/br-4.png);
   --br-5: url(../assets/face-animation-light/br-5.png);
 
-  --sun: url(../assets/glyph/sun.png);
+  --sun: url(../assets/face-animation-light/sun.png);
   --world-light: url(../assets/glyph/world-light.png);
   --world-dark: url(../assets/glyph/world-dark.png);
 }
