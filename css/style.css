@@ -35,7 +35,7 @@ p {
   z-index: 100;
 }
 
-a.btn-download {
+/*a.btn-download {
   background: rgb(245, 245, 245);
   border: var(--border);
   border-radius: 2rem;
@@ -44,7 +44,7 @@ a.btn-download {
   font-weight: 600;
   padding: 10px 30px;
   text-decoration: none;
-}
+}*/
 
 .select-lang {
   font-weight: bold;
