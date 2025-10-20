@@ -44,7 +44,10 @@ body:after {
     url(../assets/face-animation-dark/brw-2.png)
     url(../assets/face-animation-dark/brw-3.png)
     url(../assets/face-animation-dark/brw-4.png)
-    url(../assets/face-animation-dark/brw-5.png);
+    url(../assets/face-animation-dark/brw-5.png)
+    url(../assets/icons/sun.png)
+    url(../assets/icons/world-dark.png)
+    url(../assets/icons/world-light.png);
 }
 
 /* Colors. */
