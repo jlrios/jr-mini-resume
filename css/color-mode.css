@@ -83,9 +83,9 @@ body:after {
   --br-4: url(../assets/face-animation-light/br-4.png);
   --br-5: url(../assets/face-animation-light/br-5.png);
 
-  --sun: url(../assets/glyph/sun.png);
-  --world-light: url(../assets/glyph/world-light.png);
-  --world-dark: url(../assets/glyph/world-dark.png);
+  --sun: url(../assets/glyphs/sun.png);
+  --world-light: url(../assets/glyphs/world-light.png);
+  --world-dark: url(../assets/glyphs/world-dark.png);
 }
 
 /* Dark mode. */
@@ -121,8 +121,7 @@ body:after {
   --br-4: url(../assets/face-animation-dark/brw-4.png);
   --br-5: url(../assets/face-animation-dark/brw-5.png);
 
-  --moon: url(../assets/glyph/moon.png);
-  --world-dark: url(../assets/glyph/world-dark.png);
+  --moon: url(../assets/glyphs/moon.png);
 }
 
 /* Color mode toggle buttons. */

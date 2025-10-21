@@ -20,8 +20,13 @@ const projectOne = document.querySelector(".p-1");
 const projectTwo = document.querySelector(".p-2");
 const projectThree = document.querySelector(".p-3");
 
-// Current language.
-let currentLang = localStorage.getItem("preferred-language").toLocaleLowerCase();
+// Preferred language: en.
+const langStorageKey = "preferred-language";
+const defaultLang = "en";
+
+localStorage.setItem(langStorageKey, defaultLang);
+
+let currentLang = localStorage.getItem(langStorageKey, defaultLang);
 
 // Define colors and positions.
 const bgColor = "var(--bg)";
@@ -259,6 +264,7 @@ function playClosingAnimation(reverseAnimation) {
 
 // Onclick corner button functions.
 tlBtn.onclick = function () {
+  console.log(currentLang);
   if (activeCorner === "top-left") {
     playClosingAnimation("reverse-animate-top-left");
   } else {
