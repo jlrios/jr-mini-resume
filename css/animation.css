@@ -70,6 +70,7 @@
     background-image: var(--tl-1);
   }
 }
+
 .animate-top-right {
   animation-name: top-right;
 }
@@ -158,6 +159,7 @@
     background-image: var(--br-1);
   }
 }
+
 /* Animate bottom left. */
 .animate-bottom-left {
   animation-name: bottom-left;
