@@ -223,7 +223,7 @@ function playAnimation(animation, reverseAnimation) {
 
 function playClosingAnimation(reverseAnimation) {
   if (currentLang === "en") {
-    tlBtn.innerHTML = "About";
+    tlBtn.innerHTML = "About me";
     trBtn.innerHTML = "Tech Skills";
     blBtn.innerHTML = "Projects";
     brBtn.innerHTML = "Contact";
@@ -316,7 +316,7 @@ trBtn.onclick = function () {
     playClosingAnimation("reverse-animate-top-right");
   } else {
     if (currentLang === "en") {
-      tlBtn.innerHTML = "About";
+      tlBtn.innerHTML = "About me";
       blBtn.innerHTML = "Projects";
       brBtn.innerHTML = "Contact";
     } else {
@@ -398,7 +398,7 @@ brBtn.onclick = function () {
     playClosingAnimation("reverse-animate-bottom-right");
   } else {
     if (currentLang === "en") {
-      tlBtn.innerHTML = "About";
+      tlBtn.innerHTML = "About me";
       trBtn.innerHTML = "Tech Skills";
       blBtn.innerHTML = "Projects";
     } else {
