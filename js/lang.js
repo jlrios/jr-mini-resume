@@ -1,7 +1,5 @@
 const langToggleButton = document.querySelector("#toggle-button-lang");
 const langToggle = document.querySelector(".color-mode-lang")
-// const langStorageKey = "preferred-language";
-// const defaultLang = "en";
 
 function loadLanguage() {
   const langDefault = localStorage.getItem(langStorageKey) || defaultLang;

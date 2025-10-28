@@ -309,7 +309,7 @@ tlBtn.onclick = function () {
     blContent.style.transform = blHidden;
     tlContent.style.transform = tlActive;
   }
-};
+}
 
 trBtn.onclick = function () {
   if (activeCorner === "top-right") {
@@ -350,7 +350,7 @@ trBtn.onclick = function () {
     blContent.style.transform = blHidden;
     tlContent.style.transform = tlHidden;
   }
-};
+}
 
 blBtn.onclick = function () {
   if (activeCorner === "bottom-left") {
@@ -391,7 +391,7 @@ blBtn.onclick = function () {
     blContent.style.transform = blActive;
     tlContent.style.transform = tlHidden;
   }
-};
+}
 
 brBtn.onclick = function () {
   if (activeCorner === "bottom-right") {
@@ -432,4 +432,4 @@ brBtn.onclick = function () {
     blContent.style.transform = blHidden;
     tlContent.style.transform = tlHidden;
   }
-};
+}
