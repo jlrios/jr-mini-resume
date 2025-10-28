@@ -36,7 +36,7 @@ langToggleButton.addEventListener("click", () => {
   }
 
   if (activeCorner === "top-left") {
-    currentLang === "en" ? tlBtn.innerHTML = "&uarr;<br/>About" : tlBtn.innerHTML = "&uarr;<br/>Sobre mí";
+    currentLang === "en" ? tlBtn.innerHTML = "&uarr;<br/>About me" : tlBtn.innerHTML = "&uarr;<br/>Sobre mí";
   }
 
   if (activeCorner === "top-right") {
