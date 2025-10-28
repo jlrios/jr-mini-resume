@@ -357,7 +357,7 @@ blBtn.onclick = function () {
     playClosingAnimation("reverse-animate-bottom-left");
   } else {
     if (currentLang === "en") {
-      tlBtn.innerHTML = "About";
+      tlBtn.innerHTML = "About me";
       trBtn.innerHTML = "Tech Skills";
       brBtn.innerHTML = "Contact";
     } else {
