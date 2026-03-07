@@ -16,7 +16,7 @@ const trContent = document.querySelector("#grid__tr__content");
 const blContent = document.querySelector("#grid__bl__content");
 const brContent = document.querySelector("#grid__br__content");
 
-const projectOne = document.querySelector(".p-1");
+// const projectOne = document.querySelector(".p-1");
 const projectTwo = document.querySelector(".p-2");
 const projectThree = document.querySelector(".p-3");
 const projectFour = document.querySelector(".p-4");
@@ -124,8 +124,8 @@ function handleWindowResize() {
         tlBtn.style.zIndex = "100";
         blBtn.style.zIndex = "300";
         brBtn.style.zIndex = "100";
-        projectOne.style.width = "70%";
-        projectOne.style.margin = "auto auto 0.5rem";
+        // projectOne.style.width = "70%";
+        // projectOne.style.margin = "auto auto 0.5rem";
         projectTwo.style.width = "70%";
         projectTwo.style.margin = "auto auto 0.5rem";
         projectThree.style.width = "70%";
@@ -147,8 +147,8 @@ function handleWindowResize() {
         tlBtn.style.zIndex = "100";
         blBtn.style.zIndex = "300";
         brBtn.style.zIndex = "100";
-        projectOne.style.width = "40%";
-        projectOne.style.margin = "auto auto 0.5rem";
+        // projectOne.style.width = "40%";
+        // projectOne.style.margin = "auto auto 0.5rem";
         projectTwo.style.width = "40%";
         projectTwo.style.margin = "auto auto 0.5rem";
         projectThree.style.width = "40%";
@@ -162,7 +162,7 @@ function handleWindowResize() {
         blContent.style.height = "0";
         blContent.style.top = "40vh";
         blContent.style.display = "block";
-        projectOne.style.width = "100%";
+        // projectOne.style.width = "100%";
         projectTwo.style.width = "100%";
         projectThree.style.width = "100%";
         projectFour.style.width = "100%"; 
@@ -270,7 +270,7 @@ function playClosingAnimation(reverseAnimation) {
 
 // Onclick corner button functions.
 tlBtn.onclick = function () {
-  console.log(currentLang);
+  // console.log(currentLang);
   if (activeCorner === "top-left") {
     playClosingAnimation("reverse-animate-top-left");
   } else {
