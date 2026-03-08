@@ -1,10 +1,13 @@
-# System files.
+# System files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Temp files.
+# Temp files
 *.tmp
 *.swp
+
+# VS Code
+.vscode
