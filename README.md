@@ -14,4 +14,9 @@ This mini résumé was created by following a tutorial on YouTube, using standar
 [Original tutorial](https://www.youtube.com/watch?v=pcFF_IIpMbc)<br>
 [Mini Résumé source code repository](https://github.com/jlrios/jr-mini-resume)
 
+### Screenshots
+![Mini Résume dark EN](/assets/screenshots/mini-resume-en.png)
+
+![Mini Résume light ES](/assets/screenshots/mini-resume-es.png)
+
 _Last update: 2026-08-26_
