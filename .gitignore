@@ -1,13 +1,50 @@
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules/
 
 # Logs
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Temp files
-*.tmp
-*.swp
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Cache
+.cache/
+.parcel-cache/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Database folder (optional)
+db/*.db
+db/*.sqlite
+db/*.sqlite3
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
 
 # VS Code
-.vscode
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+
+# Local history
+.history/

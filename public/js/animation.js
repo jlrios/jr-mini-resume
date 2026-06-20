@@ -16,10 +16,10 @@ const trContent = document.querySelector("#grid__tr__content");
 const blContent = document.querySelector("#grid__bl__content");
 const brContent = document.querySelector("#grid__br__content");
 
-// const projectOne = document.querySelector(".p-1");
+const projectOne = document.querySelector(".p-1");
 const projectTwo = document.querySelector(".p-2");
 const projectThree = document.querySelector(".p-3");
-const projectFour = document.querySelector(".p-4");
+// const projectFour = document.querySelector(".p-4");
 
 // Preferred language: en.
 const langStorageKey = "preferred-language";
@@ -124,14 +124,14 @@ function handleWindowResize() {
         tlBtn.style.zIndex = "100";
         blBtn.style.zIndex = "300";
         brBtn.style.zIndex = "100";
-        // projectOne.style.width = "70%";
-        // projectOne.style.margin = "auto auto 0.5rem";
+        projectOne.style.width = "70%";
+        projectOne.style.margin = "auto auto 0.5rem";
         projectTwo.style.width = "70%";
         projectTwo.style.margin = "auto auto 0.5rem";
         projectThree.style.width = "70%";
         projectThree.style.margin = "auto auto 0.5rem";
-        projectFour.style.width = "70%";
-        projectFour.style.margin = "auto auto 0.5rem";
+        // projectFour.style.width = "70%";
+        // projectFour.style.margin = "auto auto 0.5rem";
       } else if (window.innerWidth <= 1100) {
         blActive = "translateX(0) translateY(0)";
         blContent.style.transform = "translateX(0vw) translateY(0)";
@@ -147,14 +147,14 @@ function handleWindowResize() {
         tlBtn.style.zIndex = "100";
         blBtn.style.zIndex = "300";
         brBtn.style.zIndex = "100";
-        // projectOne.style.width = "40%";
-        // projectOne.style.margin = "auto auto 0.5rem";
+        projectOne.style.width = "40%";
+        projectOne.style.margin = "auto auto 0.5rem";
         projectTwo.style.width = "40%";
         projectTwo.style.margin = "auto auto 0.5rem";
         projectThree.style.width = "40%";
         projectThree.style.margin = "auto auto 0.5rem";
-        projectFour.style.width = "40%";
-        projectFour.style.margin = "auto auto 0.5rem";
+        // projectFour.style.width = "40%";
+        // projectFour.style.margin = "auto auto 0.5rem";
       } else {
         blActive = "translateX(10vw) translateY(7vh)";
         blContent.style.transform = "translateX(10vw) translateY(7vh)";
@@ -162,10 +162,10 @@ function handleWindowResize() {
         blContent.style.height = "0";
         blContent.style.top = "40vh";
         blContent.style.display = "block";
-        // projectOne.style.width = "100%";
+        projectOne.style.width = "100%";
         projectTwo.style.width = "100%";
         projectThree.style.width = "100%";
-        projectFour.style.width = "100%"; 
+        // projectFour.style.width = "100%"; 
       }
       break;
 

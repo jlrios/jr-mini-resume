@@ -16,8 +16,8 @@
     <script src="./js/color-mode.js" defer></script>
     <script src="./js/project-slideshow.js" defer></script>
     <script src="./js/about-modal.js" defer></script>
+    <script src="./js/stats.js" defer></script>
     <title>José Ríos - Mini Résumé</title>
-    
   </head>
   <body>
     <div id="hero">
@@ -203,10 +203,10 @@
         <div id="grid__bl__btn" data-es="Proyectos" data-en="Projects">Projects</div>
         <div id="grid__bl__content">
           <div id="grid__bl__content__projects">
-            <!--<div class="project p-1">
+            <div class="project p-1">
               <img
                 class="project__img project-1"
-                src="assets/portfolio-projects/project-1-dark.png"
+                src="assets/portfolio-projects/project-1.png"
                 alt="Project 1"
               />
               <h2 class="project__title">Cherry Labs</h2>
@@ -222,7 +222,7 @@
               >
                 GitHub
               </button>
-            </div>-->
+            </div>
             <div class="project p-2">
               <img
                 class="project__img project-2"
@@ -263,7 +263,7 @@
                 GitHub
               </button>
             </div>
-            <div class="project p-4">
+            <!--<div class="project p-4">
               <img
                 class="project__img project-4"
                 src="assets/portfolio-projects/project-4.png"
@@ -282,7 +282,7 @@
               >
                 GitHub
               </button>
-            </div>
+            </div>-->
             <button class="arrow" onclick="navigateProject(-1)">
               &#10094;
             </button>
@@ -329,6 +329,7 @@
           </p>
           <ul>
             <li data-es="Un botón para alternar entre el Inglés y Español" data-en="A toggle button to switch between English and Spanish">A toggle button to switch between English and Spanish</li>
+            <li data-es="Una pequeña tarjeta de " data-en="A toggle button to switch between English and Spanish">A toggle button to switch between English and Spanish</li>
           </ul>
         </p>
         <p data-es="Próximas actualizaciones incluirán:" data-en="Upcoming updates will include:">
@@ -347,7 +348,24 @@
         <br>
         <a href="https://github.com/jlrios/jr-mini-resume" data-es="Repositorio código fuente Miní Currículo" data-en="Mini Résumé source code repository">Mini Résumé source code repository</a>
         <br><br>
-        <p data-es="Última actualización: 2026-03-08" data-en="Last update: 2026-03-08"><b>Last update:</b> 2026-03-08</p>
+        <p>
+          <span class="i18n"
+            data-es="Total de visualizaciones:"
+            data-en="Total Mini Résumé views:">
+            Total Mini Résumé views:
+          </span>
+          <strong id="totalViews">0</strong>
+        </p>
+        <p>
+          <span class="i18n"
+            data-es="Visitantes únicos:"
+            data-en="Unique visitors:">
+            Unique visitors:
+          </span>
+          <strong id="uniqueVisitors">0</strong>
+        </p>
+        <br>
+        <p data-es="Última actualización: 2026-06-19" data-en="Last update: 2026-06-19"><b>Last update:</b> 2026-06-19</p>
       </div>
     </div>
   </body>
