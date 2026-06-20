@@ -9,7 +9,7 @@ This mini résumé was created by following a tutorial on YouTube, using standar
 - Migration to React
 - Automatic theme switching based on system time
 - Optimizing avatar animation and improving responsiveness
-- ~~Add visitor analytics~~
+- ~~Add basic visitor analytics~~
 
 ## Links:
 [Original tutorial](https://www.youtube.com/watch?v=pcFF_IIpMbc)<br>
