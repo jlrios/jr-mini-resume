@@ -28,11 +28,6 @@ pids
 *.sqlite
 *.sqlite3
 
-# Database folder (optional)
-db/*.db
-db/*.sqlite
-db/*.sqlite3
-
 # macOS
 .DS_Store
 
