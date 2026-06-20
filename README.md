@@ -16,8 +16,8 @@ This mini résumé was created by following a tutorial on YouTube, using standar
 [Mini Résumé URL](https://jr-mini-resume-a281.onrender.com/)
 
 ## Screenshots
-![Mini Résume dark EN](/assets/screenshots/mini-resume-en.png)
+![Mini Résume dark EN](/public/assets/screenshots/mini-resume-en.png)
 
-![Mini Résume light ES](/assets/screenshots/mini-resume-es.png)
+![Mini Résume light ES](public/assets/screenshots/mini-resume-es.png)
 
 _Last update: 2026-06-20_
