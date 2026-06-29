@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   openModal.addEventListener("click", (event) => {
     event.preventDefault();
-    loadStats();
     aboutModal.style.display = "block";
   });
 
