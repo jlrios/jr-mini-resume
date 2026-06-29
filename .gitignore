@@ -14,21 +14,6 @@ yarn-error.log*
 !.env.example
 
 # Runtime files
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Cache
-.cache/
-.parcel-cache/
-
-# SQLite databases
-db/*.db
-*.db
-*.sqlite
-*.sqlite3
-
 # macOS
 .DS_Store
 

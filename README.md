@@ -4,12 +4,12 @@ This mini résumé was created by following a tutorial on YouTube, using standar
 
 - Implemented a Node.js server for basic visitor analytics, with metrics persisted in a SQLite database
 - A toggle button to switch between English and Spanish
+- Removed visitor analytics due to persistence issues on application restart 2026-06-26
 
 ## Upcoming updates
 - Migration to React
 - Automatic theme switching based on system time
 - Optimizing avatar animation and improving responsiveness
-- ~~Add basic visitor analytics~~
 
 ## Links:
 [Original tutorial](https://www.youtube.com/watch?v=pcFF_IIpMbc)<br>
@@ -20,4 +20,4 @@ This mini résumé was created by following a tutorial on YouTube, using standar
 
 ![Mini Résume light ES](public/assets/screenshots/mini-resume-es.png)
 
-_Last update: 2026-06-20_
+_Last update: 2026-06-29_
