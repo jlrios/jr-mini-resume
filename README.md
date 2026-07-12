@@ -20,4 +20,4 @@ This mini résumé was created by following a tutorial on YouTube, using standar
 
 ![Mini Résume light ES](/assets/screenshots/mini-resume-es.png)
 
-_Last update: 2026-06-29_
+_Last update: 2026-07-11_
